@@ -1,5 +1,5 @@
 # Navbar-tailwind
-Responsive Navbar with TailwindCSS - Reactjs
+Responsive Navbar with TailwindCSS And Reactjs, This navbar is made with a fixed layout on mobile and unstyled deskop view.
 
 ### Preview
 ![code1](https://user-images.githubusercontent.com/122996864/223096454-edbc4698-fc0f-405c-a32a-948e747bbf31.gif)
