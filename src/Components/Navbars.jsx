@@ -24,7 +24,7 @@ export const nav = [
 // Component Navlink from react-router-dom
 export const NavUrl = ({ urlTo, urlText }) => {
   return (
-    <NavLink className="block px-2 py-1" to={urlTo}>
+    <NavLink className="block px-4 py-1 lg:text-lg" to={urlTo}>
       {urlText}
     </NavLink>
   );
@@ -39,10 +39,10 @@ export const Navbars = () => {
   };
 
   return (
-    <nav className="lg:relative fixed top-2 right-2 z-0">
-      {/* Icon [START] */}
+    <nav className="fixed top-2 right-3 z-0">
+      {/* Icon [Change-Style] [Fixed-layout] */}
       <div
-        className={`lg:hidden relative z-20 ${
+        className={`relative z-20 ${
           isActive
             ? "inline-block cursor-pointer change"
             : "inline-block cursor-pointer"
@@ -63,11 +63,11 @@ export const Navbars = () => {
           <div key={index} className={`${id.toString()}`}></div>
         ))}
       </div>
-      {/* Icon [END] */}
+      {/* Icon [Change-Style] [Fixed-layout] */}
 
-      {/* Menu [START] */}
+      {/* Menu [START] [Fixed-layout] */}
       <ul
-        className={`lg:flex lg:flex-row flex-col ${
+        className={`flex flex-col ${
           isActive
             ? "flex flex-col justify-center bg-opacity-75 bg-slate-400 align-middle text-right fixed top-0 left-0 right-0 bottom-0"
             : "hidden"
@@ -79,7 +79,7 @@ export const Navbars = () => {
           </li>
         ))}
       </ul>
-      {/* Menu [END] */}
+      {/* Menu [END] [Fixed-layout] */}
     </nav>
   );
 };
