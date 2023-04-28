@@ -8,7 +8,7 @@ Responsive Navbar with TailwindCSS And Reactjs, This navbar is made with a fixed
 
 
 ### Use
-> Unstyled
+> Unstyled [^](https://github.com/Id-Yuu/navbar-tailwind/tree/fixed-layout)
 ```
 git clone https://github.com/Id-Yuu/navbar-tailwind.git
 cd navbar-tailwind
@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-> Fixed Layout
+> Fixed Layout [^](https://github.com/Id-Yuu/navbar-tailwind)
 ```
 git clone https://github.com/Id-Yuu/navbar-tailwind.git --branch fixed-layout --single-branch
 cd navbar-tailwind
